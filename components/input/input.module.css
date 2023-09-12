@@ -1,0 +1,30 @@
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.input label{
+    font-size: 16px;
+    margin-bottom: 5px;
+
+    
+
+}
+.input input{
+    
+    width: 100%;
+
+    padding: .5rem 1rem;
+    outline: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+}

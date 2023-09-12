@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  color: black;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  font-size: 20px;
+}
+
+.navLinks li a:hover {
+  color: var(--link-hover-color);
+}
